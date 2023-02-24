@@ -5,9 +5,9 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.activemq</groupId>
-  <artifactId>jms.messageEnableJms</artifactId>
+  <artifactId>jms.messagelistener</artifactId>
   <version>1.0</version>
-
+  <packaging>jar</packaging>
   <name>My Message Listener Application</name>
 
   <parent>
@@ -17,6 +17,7 @@
   </parent>
 
   <properties>
+    <app.entry>com.activemq.AppEntry</app.entry>
     <springframework.version>5.1.3.RELEASE</springframework.version>
   </properties>
 
